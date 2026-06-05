@@ -1,0 +1,128 @@
+# =========================
+# .NET / Blazor Build Output
+# =========================
+
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+arm64/
+artifacts/
+
+# =========================
+# Visual Studio / Rider / VS Code
+# =========================
+
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# =========================
+# NuGet
+# =========================
+
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+
+# =========================
+# ASP.NET / Blazor
+# =========================
+
+wwwroot/lib/
+Generated/
+ScaffoldingReadMe.txt
+
+# Blazor WebAssembly generated files
+wwwroot/_framework/
+wwwroot/service-worker-assets.js
+
+# =========================
+# App Settings / Secrets
+# =========================
+
+appsettings.json
+appsettings.*.json
+
+# Keep sample config files if you use them
+!appsettings.example.json
+!appsettings.Sample.json
+
+# User secrets should never be committed
+secrets.json
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+Logs/
+
+# =========================
+# Environment Files
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# macOS Files
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# Windows Files
+# =========================
+
+desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Test Results / Coverage
+# =========================
+
+TestResults/
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+*.trx
+
+# =========================
+# Publish Output
+# =========================
+
+publish/
+*.pubxml.user
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
